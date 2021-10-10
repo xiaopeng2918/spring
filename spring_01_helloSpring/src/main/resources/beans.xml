@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+        https://www.springframework.org/schema/beans/spring-beans.xsd">
+<!--    bean代表实例一个对象
+        id代表实例名称
+        class 类的路径
+        name 实例对象的属性
+        value 对应属性的值
+-->
+    <bean id="hello" class="top.yxp2918.pojo.Hello">
+        <property name="str" value="helloSpring"/>
+    </bean>
+
+
+    <!-- more bean definitions go here -->
+
+</beans>
